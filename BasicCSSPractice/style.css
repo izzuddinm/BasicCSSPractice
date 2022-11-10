@@ -1,0 +1,99 @@
+/* Syle CSS*/
+
+.header {
+    width: 97vw;
+    padding: 2vh;
+    height: 3vh;
+    background-color:hsl(190, 4%, 71%);
+    color: black;
+    border-bottom: 10px solid white;
+    transition: all .100s ease;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.warna{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.kursi {
+        border: 2px solid black;
+        padding: 20px;
+        width: 400px;
+        border-radius: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        
+}
+
+.ungu {
+    background-color: purple;
+    margin: 30px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+.biru {
+    background-color: blue;
+    margin: 30px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}.merah {
+    background-color: red;
+    margin: 30px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}.hitam {
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}.coklat {
+    background-color: brown;
+    margin: 30px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin: 10px;
+    padding: 2px;
+}
+
+.text h2 {
+    margin-bottom: 1px;
+}
+
+.footer { 
+    height: 300px;
+    background-color: hsl(190, 4%, 71%);
+    color: black;
+}
+
+.isi-footer {
+    display: flex;
+    justify-content: space-around;
+}
