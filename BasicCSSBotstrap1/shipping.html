@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+    <title>CSS Practice</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <div>
+        <img src="assets/logo.png" alt="" />
+      </div>
+      <div class="d-flex p-4">
+        <a class="nav-link text-dark" href="#">Showcase</a>
+        <a class="nav-link text-dark" href="#">Catalog</a>
+        <a class="nav-link text-dark" href="#">Delivery</a>
+        <a class="nav-link text-dark" href="#">Reward</a>
+        <button style="border: 0px">
+          <img src="assets/cart-icon.png" alt="" />
+        </button>
+      </div>
+    </nav>
+
+    <div class="header p-4">
+      <a
+        class="text-dark"
+        href="#"
+        style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+        >Home /</a
+      >
+      <a
+        class="text-dark"
+        href="#"
+        style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+        >Office Room /</a
+      >
+      <a
+        class="text-dark"
+        href="#"
+        style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+        >Details /</a
+      >
+      <a
+        class="text-dark"
+        href="index.html"
+        style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+        >Shipping
+      </a>
+    </div>
+
+    <div class="alert alert-success alert-dismissible d-none" id="alert" style="justify-content:center;">
+      <center>
+      <h2 id="alerttext"></h2>
+      <h5 id="alerttext1"></h5>
+      <a href="index.html"><button type="button" class="btn btn-outline-warning">Back</button></a>
+    </center>
+    </div>
+    
+
+    <!-- shipping form -->
+    <div
+      id="form-id"
+      class="p-4 border border-danger"
+      style="width: fit-content; margin: auto; margin-top: 5%"
+    >
+      <div>
+        <h1 style="text-align: center; margin-bottom: 5%">Shipping Form</h1>
+      </div>
+      <form>
+        <div class="form-row d-flex">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault01">First Name</label>
+            <input
+            id="firstname"
+              type="text"
+              class="form-control"
+              id="firstname"
+              placeholder="First name"
+              value="" required
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault02">Phone Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="Phone number"
+              value=""
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault01">last Name</label>
+            <input
+            id="lastname"
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="Last name"
+              value=""
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault02">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="city"
+              placeholder="Enter City"
+              value=""
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault01">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+              value=""
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault02">Postal Code</label>
+            <input
+              type="text"
+              class="form-control"
+              id="postal"
+              placeholder="Postal Code"
+              value=""
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="">Address</label>
+            <textarea
+              style="overflow: auto"
+              name=""
+              id="address"
+              cols="70"
+              rows="4"
+            required></textarea>
+          </div>
+        </div>
+        <div>
+          <button
+            id="submitform"
+            class="btn-lg mb-3"
+            type="submit"
+            style="background-color: pink"
+          >
+            submit
+          </button>
+        </div>
+      </form>
+                
+    </div>
+
+    <div class="footer">
+      <br />
+      <center>
+        <img src="assets/logo.png" alt="" />
+      </center>
+      <br />
+      <div class="isi-footer">
+        <div>
+          <p><b>Overview</b></p>
+          <p>Shipping</p>
+          <p>Refund</p>
+          <p>Promotion</p>
+        </div>
+        <div>
+          <p><b>Company</b></p>
+          <p>About</p>
+          <p>Career</p>
+          <p>Contact Us</p>
+        </div>
+        <div>
+          <p><b>Explore</b></p>
+          <p>Terms & Condition</p>
+          <p>Privacy Policy</p>
+          <p>For Developer</p>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="text-center bg-light" style="padding: 25px">
+      <p>
+        Copyright 2021
+        <span><b>• All Right Reserved LuxSpaced by BuildWith Izzuddin</b></span>
+      </p>
+    </div>
+  </body>
+</html>
